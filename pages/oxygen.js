@@ -3,7 +3,7 @@ import OxygenCard from "../components/OxygenCard";
 import NextLink from "next/link";
 
 export async function getStaticProps() {
-	const res = await fetch("https://iwantoxygen.vercel.app/api/allRecords");
+	const res = await fetch("https://archanamam.vercel.app/api/allRecords");
 	const records = await res.json();
 
 	return {
