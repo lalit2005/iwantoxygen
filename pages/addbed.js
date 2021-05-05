@@ -1,4 +1,6 @@
 import NextLink from "next/link";
+import { useRouter } from "next/router";
+
 import { useEffect, useState } from "react";
 import {
 	Text,
@@ -18,9 +20,6 @@ import {
 	ModalFooter,
 	NumberInput,
 	NumberInputField,
-	NumberInputStepper,
-	NumberIncrementStepper,
-	NumberDecrementStepper,
 } from "@chakra-ui/react";
 
 const addoxygen = () => {
@@ -32,6 +31,8 @@ const addoxygen = () => {
 	const [location, setLocation] = useState("");
 	const [description, setDescription] = useState("");
 	const { isOpen, onOpen, onClose } = useDisclosure();
+
+	const router = useRouter();
 
 	const handlePost = (event) => {
 		event.preventDefault();
@@ -45,18 +46,42 @@ const addoxygen = () => {
 			);
 			return;
 		}
-		if (numberOfBeds < 0 || numberOfBeds > 500) {
-			alert("Please enter a valid number for number of beds field");
-			return;
-		}
 		if (password.length < 6) {
 			alert("Password should atleast be 6 characters long");
 			return;
 		}
-		console.log(email, phoneNumber, name, numberOfBeds, location, description);
+		fetch("/api/addBedRecord", {
+			method: "POST",
+			headers: {
+				"Content-Type": "application/json",
+				Accept: "application/json",
+			},
+			body: JSON.stringify({
+				email,
+				password,
+				phoneNumber,
+				name,
+				numberOfBeds: numberOfBeds,
+				location: location,
+				description: description || "No description provided 📭",
+			}),
+		})
+			.then((res) => res.json())
+			.then((data) => {
+				console.log(data);
+				router.push("/thanks?subject=beds");
+			})
+			.catch((err) => console.log(err));
+	};
+
+	const handleSubmit = (e) => {
+		e.preventDefault();
 		onOpen();
 	};
 
+	useEffect(() => {
+		router.prefetch("/thanks");
+	}, []);
 	useEffect(() => {
 		console.log(numberOfBeds);
 	}, [numberOfBeds]);
@@ -86,7 +111,7 @@ const addoxygen = () => {
 					source
 				</Heading>
 
-				<form mt="50px" onSubmit={handlePost}>
+				<form mt="50px" onSubmit={handleSubmit}>
 					<FormLabel>Email address</FormLabel>
 					<Input
 						type="email"
@@ -182,7 +207,7 @@ const addoxygen = () => {
 
 					<ModalFooter>
 						<NextLink href="/thanks?subject=bed">
-							<Button bg="black" color="white" mr={3} onClick={onClose}>
+							<Button bg="black" color="white" mr={3} onClick={handlePost}>
 								<a>I AGREE 👍</a>
 							</Button>
 						</NextLink>

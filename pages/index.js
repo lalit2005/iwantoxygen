@@ -7,6 +7,11 @@ import {
 	Link,
 	Flex,
 	Image,
+	Accordion,
+	AccordionItem,
+	AccordionButton,
+	AccordionIcon,
+	AccordionPanel,
 } from "@chakra-ui/react";
 
 export default function Home() {
@@ -17,16 +22,11 @@ export default function Home() {
 			color="black"
 			bg="white"
 			pt="100px"
+			pb="200px"
 			textAlign="center"
 			px="10px">
 			<Flex direction="column">
-				<Image
-					src="https://www.un.org/sites/un2.un.org/files/covid-19.svg"
-					alt=""
-					w="150px"
-					mx="auto"
-					mb="40px"
-				/>
+				<Image src="/covid-19.svg" alt="" w="150px" mx="auto" mb="40px" />
 
 				<Heading fontWeight="black" fontSize="5xl" as="h1">
 					Save lives from COVID-19
@@ -115,6 +115,64 @@ export default function Home() {
 					</Link>
 				</NextLink>
 			</Flex>
+			<Accordion
+				allowToggle
+				as="div"
+				maxW="xl"
+				mx="auto"
+				mt="80px"
+				textAlign="left">
+				<Heading mb="20px">FAQs</Heading>
+				<AccordionItem>
+					<h2>
+						<AccordionButton>
+							<Box flex="1" textAlign="left">
+								Is this website official
+							</Box>
+							<AccordionIcon />
+						</AccordionButton>
+					</h2>
+					<AccordionPanel pb={4}>
+						No. This is not an official website. It's made by{" "}
+						<Link color="blue.600" href="https://github.com/lalit2005">
+							Lalit
+						</Link>
+						, a 10th grade student from Bangalore, Karnataka, India
+					</AccordionPanel>
+				</AccordionItem>
+
+				<AccordionItem>
+					<h2>
+						<AccordionButton>
+							<Box flex="1" textAlign="left">
+								Is this website open source
+							</Box>
+							<AccordionIcon />
+						</AccordionButton>
+					</h2>
+					<AccordionPanel pb={4}>
+						No. This website is not open source currently.
+					</AccordionPanel>
+				</AccordionItem>
+				<AccordionItem>
+					<h2>
+						<AccordionButton>
+							<Box flex="1" textAlign="left">
+								Is the data on this website reliable?
+							</Box>
+							<AccordionIcon />
+						</AccordionButton>
+					</h2>
+					<AccordionPanel pb={4}>
+						However I regularly check the data posted on this website, some data
+						might be untrue. So please do verify once before talking any
+						decisions. Report any fake data{" "}
+						<Link color="blue.700" href="https://tally.so/r/m6e4Yn">
+							here
+						</Link>
+					</AccordionPanel>
+				</AccordionItem>
+			</Accordion>
 		</Box>
 	);
 }

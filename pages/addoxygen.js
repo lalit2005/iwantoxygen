@@ -63,13 +63,13 @@ const addoxygen = () => {
 				name,
 				price_per_litre: floor(floor(price) / floor(litre)),
 				location,
-				description,
+				description: description || "No description provided 📭",
 			}),
 		})
 			.then((res) => res.json)
 			.then((data) => {
 				console.log(data);
-				router.push("/thanks");
+				router.push("/thanks?subject=oxygen");
 			});
 		console.log(email, phoneNumber, name, price, litre, location, description);
 	};

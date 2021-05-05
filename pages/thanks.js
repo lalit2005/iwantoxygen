@@ -26,7 +26,12 @@ const Thanks = () => {
 			</NextLink>
 			<NextLink href="/oxygen">
 				<Button mt="30px" mx="10px">
-					See all available {subject} suppliers
+					See all available oxygen suppliers
+				</Button>
+			</NextLink>
+			<NextLink href="/bed">
+				<Button mt="30px" mx="10px">
+					See all available bed suppliers
 				</Button>
 			</NextLink>
 		</Box>

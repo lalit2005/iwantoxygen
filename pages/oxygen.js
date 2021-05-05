@@ -28,7 +28,7 @@ const oxygen = ({ records }) => {
 					py="10px"
 					alignItems="center">
 					<Heading fontSize="xl" ml="5px">
-						Oxygen suppliers
+						<NextLink href="/">Oxygen suppliers</NextLink>
 					</Heading>
 					<Spacer />
 					<NextLink href="/addoxygen">
