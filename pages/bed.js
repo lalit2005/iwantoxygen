@@ -3,7 +3,7 @@ import BedCard from "../components/BedCard";
 import NextLink from "next/link";
 
 export async function getStaticProps() {
-	const res = await fetch("http://localhost:3000/api/allBedRecords");
+	const res = await fetch("https://iwantoxygen.vercel.app/api/allBedRecords");
 	const records = await res.json();
 
 	return {
