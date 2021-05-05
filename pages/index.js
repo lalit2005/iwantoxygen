@@ -172,6 +172,19 @@ export default function Home() {
 						</Link>
 					</AccordionPanel>
 				</AccordionItem>
+				<AccordionItem>
+					<h2>
+						<AccordionButton>
+							<Box flex="1" textAlign="left">
+								How frequently is the data updated on the website
+							</Box>
+							<AccordionIcon />
+						</AccordionButton>
+					</h2>
+					<AccordionPanel pb={4}>
+						The data on the website is updated every 5 minutes.
+					</AccordionPanel>
+				</AccordionItem>
 			</Accordion>
 		</Box>
 	);

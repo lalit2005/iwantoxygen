@@ -10,7 +10,7 @@ export async function getStaticProps() {
 		props: {
 			records,
 		},
-		revalidate: 1, // In seconds
+		revalidate: 300, // In seconds
 	};
 }
 
