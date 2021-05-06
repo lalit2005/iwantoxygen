@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
 		<ChakraProvider resetCSS theme={theme}>
 			<Head>
 				<title>Find oxygen and bed sources near you</title>
-				<meta property="og:url" content="https://iwantoxygen.vercel.app/" />
+				<meta property="og:url" content="https://iwantoxygen.now.sh/" />
 				<meta property="og:type" content="website" />
 				<meta
 					property="og:title"
