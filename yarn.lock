@@ -747,20 +747,20 @@
     "@types/websocket" "^1.0.1"
     websocket "^1.0.34"
 
-"@supabase/storage-js@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/@supabase/storage-js/-/storage-js-1.2.0.tgz"
+"@supabase/storage-js@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@supabase/storage-js/-/storage-js-1.2.1.tgz#e6c03280eefd061bf980d730188f6377f0e7049f"
   dependencies:
     cross-fetch "^3.1.0"
 
-"@supabase/supabase-js@^1.11.7":
-  version "1.13.1"
-  resolved "https://registry.npmjs.org/@supabase/supabase-js/-/supabase-js-1.13.1.tgz"
+"@supabase/supabase-js@^1.13.2":
+  version "1.13.2"
+  resolved "https://registry.yarnpkg.com/@supabase/supabase-js/-/supabase-js-1.13.2.tgz#ee42ca8e67c44b19e6c8f5955e8400655529d226"
   dependencies:
     "@supabase/gotrue-js" "^1.16.2"
     "@supabase/postgrest-js" "^0.29.0"
     "@supabase/realtime-js" "^1.0.9"
-    "@supabase/storage-js" "^1.2.0"
+    "@supabase/storage-js" "^1.2.1"
 
 "@types/lodash.mergewith@4.6.6":
   version "4.6.6"
