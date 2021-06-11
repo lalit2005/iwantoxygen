@@ -734,9 +734,9 @@
   dependencies:
     cross-fetch "^3.0.6"
 
-"@supabase/postgrest-js@^0.29.0":
-  version "0.29.0"
-  resolved "https://registry.npmjs.org/@supabase/postgrest-js/-/postgrest-js-0.29.0.tgz"
+"@supabase/postgrest-js@^0.30.0":
+  version "0.30.0"
+  resolved "https://registry.yarnpkg.com/@supabase/postgrest-js/-/postgrest-js-0.30.0.tgz#a0b880922dc64e3f5e7c637c10fc41a953077372"
   dependencies:
     cross-fetch "^3.0.6"
 
@@ -747,20 +747,20 @@
     "@types/websocket" "^1.0.1"
     websocket "^1.0.34"
 
-"@supabase/storage-js@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/@supabase/storage-js/-/storage-js-1.2.0.tgz"
+"@supabase/storage-js@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@supabase/storage-js/-/storage-js-1.2.1.tgz#e6c03280eefd061bf980d730188f6377f0e7049f"
   dependencies:
     cross-fetch "^3.1.0"
 
-"@supabase/supabase-js@^1.11.7":
-  version "1.13.1"
-  resolved "https://registry.npmjs.org/@supabase/supabase-js/-/supabase-js-1.13.1.tgz"
+"@supabase/supabase-js@^1.14.0":
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/@supabase/supabase-js/-/supabase-js-1.14.0.tgz#26713a85ce0505a470a8297cff7d243c16e54cd1"
   dependencies:
     "@supabase/gotrue-js" "^1.16.2"
-    "@supabase/postgrest-js" "^0.29.0"
+    "@supabase/postgrest-js" "^0.30.0"
     "@supabase/realtime-js" "^1.0.9"
-    "@supabase/storage-js" "^1.2.0"
+    "@supabase/storage-js" "^1.2.1"
 
 "@types/lodash.mergewith@4.6.6":
   version "4.6.6"
