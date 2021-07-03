@@ -12,7 +12,7 @@
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.3.0",
     "@fontsource/inter": "^4.4.5",
-    "@supabase/supabase-js": "^1.17.0",
+    "@supabase/supabase-js": "^1.18.0",
     "faker": "^5.5.3",
     "framer-motion": "^4.1.9",
     "next": "11.0.1",
