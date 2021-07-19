@@ -730,27 +730,27 @@
   dependencies:
     cross-fetch "^3.0.6"
 
-"@supabase/realtime-js@^1.0.11":
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/@supabase/realtime-js/-/realtime-js-1.0.11.tgz#2b3a0b7822bcb8b2cf6201ec3c34220be23f40de"
+"@supabase/realtime-js@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@supabase/realtime-js/-/realtime-js-1.1.1.tgz#3a1be101eecbc2413d41bfdd6757d964a5f82b14"
   dependencies:
-    "@types/websocket" "^1.0.1"
+    "@types/websocket" "^1.0.3"
     websocket "^1.0.34"
 
-"@supabase/storage-js@^1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@supabase/storage-js/-/storage-js-1.2.2.tgz#6eeef2d1365af2497b35ae6c6384f5dfbd75f5b6"
+"@supabase/storage-js@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@supabase/storage-js/-/storage-js-1.4.0.tgz#0692782ccaf10df27d539d9349031ed87c7ec426"
   dependencies:
     cross-fetch "^3.1.0"
 
-"@supabase/supabase-js@^1.18.1":
-  version "1.18.1"
-  resolved "https://registry.yarnpkg.com/@supabase/supabase-js/-/supabase-js-1.18.1.tgz#58fa3dfff3a1f86c169c83330282120195f6c5f1"
+"@supabase/supabase-js@^1.20.0":
+  version "1.20.0"
+  resolved "https://registry.yarnpkg.com/@supabase/supabase-js/-/supabase-js-1.20.0.tgz#3d7bd464c4170126f176fdfede747cba751651fb"
   dependencies:
     "@supabase/gotrue-js" "^1.16.6"
     "@supabase/postgrest-js" "^0.33.0"
-    "@supabase/realtime-js" "^1.0.11"
-    "@supabase/storage-js" "^1.2.2"
+    "@supabase/realtime-js" "^1.1.1"
+    "@supabase/storage-js" "^1.4.0"
 
 "@types/lodash.mergewith@4.6.6":
   version "4.6.6"
@@ -778,9 +778,9 @@
   version "3.0.0"
   resolved "https://registry.npmjs.org/@types/warning/-/warning-3.0.0.tgz"
 
-"@types/websocket@^1.0.1":
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/@types/websocket/-/websocket-1.0.2.tgz"
+"@types/websocket@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@types/websocket/-/websocket-1.0.3.tgz#49e09f939afd0ccdee4f7108d4712ec9feb0f153"
   dependencies:
     "@types/node" "*"
 
