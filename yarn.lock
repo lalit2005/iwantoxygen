@@ -718,9 +718,9 @@
     prop-types "^15.7.2"
     tslib "^2.1.0"
 
-"@supabase/gotrue-js@^1.16.6":
-  version "1.16.6"
-  resolved "https://registry.yarnpkg.com/@supabase/gotrue-js/-/gotrue-js-1.16.6.tgz#d9d63740b11ad51d2f8d6c68e9ac16bb83439888"
+"@supabase/gotrue-js@^1.17.0":
+  version "1.17.0"
+  resolved "https://registry.yarnpkg.com/@supabase/gotrue-js/-/gotrue-js-1.17.0.tgz#0ff46f844ddd124543d2769da8eda58ab479b49b"
   dependencies:
     cross-fetch "^3.0.6"
 
@@ -743,11 +743,11 @@
   dependencies:
     cross-fetch "^3.1.0"
 
-"@supabase/supabase-js@^1.20.0":
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/@supabase/supabase-js/-/supabase-js-1.20.0.tgz#3d7bd464c4170126f176fdfede747cba751651fb"
+"@supabase/supabase-js@^1.21.0":
+  version "1.21.0"
+  resolved "https://registry.yarnpkg.com/@supabase/supabase-js/-/supabase-js-1.21.0.tgz#7fe3575a41644048ecbe2ed6eba89e830959d47b"
   dependencies:
-    "@supabase/gotrue-js" "^1.16.6"
+    "@supabase/gotrue-js" "^1.17.0"
     "@supabase/postgrest-js" "^0.33.0"
     "@supabase/realtime-js" "^1.1.1"
     "@supabase/storage-js" "^1.4.0"
