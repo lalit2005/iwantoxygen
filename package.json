@@ -10,7 +10,7 @@
   "dependencies": {
     "@chakra-ui/react": "^1.6.8",
     "@emotion/react": "^11.4.1",
-    "@emotion/styled": "^11.3.0",
+    "@emotion/styled": "^11.6.0",
     "@fontsource/inter": "^4.5.0",
     "@supabase/supabase-js": "^1.23.0",
     "faker": "^5.5.3",
