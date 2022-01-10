@@ -13,7 +13,7 @@
     "@emotion/styled": "^11.3.0",
     "@fontsource/inter": "^4.5.0",
     "@supabase/supabase-js": "^1.23.0",
-    "faker": "^5.5.3",
+    "faker": "^6.6.6",
     "framer-motion": "^4.1.9",
     "next": "11.1.2",
     "react": "17.0.2",
