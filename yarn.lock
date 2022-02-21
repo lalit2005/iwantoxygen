@@ -773,39 +773,39 @@
     prop-types "^15.7.2"
     tslib "^2.1.0"
 
-"@supabase/gotrue-js@^1.18.0":
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/@supabase/gotrue-js/-/gotrue-js-1.18.0.tgz#1642c2605a24349b9bfbcd2ad83d19df3908371e"
+"@supabase/gotrue-js@^1.22.1":
+  version "1.22.1"
+  resolved "https://registry.yarnpkg.com/@supabase/gotrue-js/-/gotrue-js-1.22.1.tgz#28cba21713a25045e94f99fa26b66dbb3b808f92"
   dependencies:
     cross-fetch "^3.0.6"
 
-"@supabase/postgrest-js@^0.33.3":
-  version "0.33.3"
-  resolved "https://registry.yarnpkg.com/@supabase/postgrest-js/-/postgrest-js-0.33.3.tgz#ae2061d1aef3879582900f059b7069ac41dd51ff"
+"@supabase/postgrest-js@^0.36.0":
+  version "0.36.0"
+  resolved "https://registry.yarnpkg.com/@supabase/postgrest-js/-/postgrest-js-0.36.0.tgz#a734b9ce92fad86f825e6d707ffe638f0e85887a"
   dependencies:
     cross-fetch "^3.0.6"
 
-"@supabase/realtime-js@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@supabase/realtime-js/-/realtime-js-1.1.3.tgz#2fefd36edae7fcee2ec8d622da58997e5e21b276"
+"@supabase/realtime-js@^1.3.6":
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/@supabase/realtime-js/-/realtime-js-1.3.6.tgz#113d882829827671533673fa719479e40d522a45"
   dependencies:
     "@types/websocket" "^1.0.3"
     websocket "^1.0.34"
 
-"@supabase/storage-js@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@supabase/storage-js/-/storage-js-1.4.0.tgz#0692782ccaf10df27d539d9349031ed87c7ec426"
+"@supabase/storage-js@^1.6.0":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@supabase/storage-js/-/storage-js-1.6.1.tgz#80fdf4356ccc46bd4bc5f3e61583f7be5163fa92"
   dependencies:
     cross-fetch "^3.1.0"
 
-"@supabase/supabase-js@^1.23.0":
-  version "1.23.0"
-  resolved "https://registry.yarnpkg.com/@supabase/supabase-js/-/supabase-js-1.23.0.tgz#b5736e384ce95b10dd51d86ea4b140a9a383d331"
+"@supabase/supabase-js@^1.30.4":
+  version "1.30.4"
+  resolved "https://registry.yarnpkg.com/@supabase/supabase-js/-/supabase-js-1.30.4.tgz#0dcf90739acbf6fa7fecd3742b0ba8a6f14a8a67"
   dependencies:
-    "@supabase/gotrue-js" "^1.18.0"
-    "@supabase/postgrest-js" "^0.33.3"
-    "@supabase/realtime-js" "^1.1.3"
-    "@supabase/storage-js" "^1.4.0"
+    "@supabase/gotrue-js" "^1.22.1"
+    "@supabase/postgrest-js" "^0.36.0"
+    "@supabase/realtime-js" "^1.3.6"
+    "@supabase/storage-js" "^1.6.0"
 
 "@types/lodash.mergewith@4.6.6":
   version "4.6.6"
